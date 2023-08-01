@@ -11,17 +11,15 @@ import {
     redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
     figma,
-    docker,
     meta,
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    acude,
+    holytime,
+    aco,
     threejs,
   } from "../assets";
   
@@ -46,15 +44,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Java developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Angular Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Mobile developer",
       icon: creator,
     },
   ];
@@ -76,7 +74,7 @@ import {
       name: "TypeScript",
       icon: typescript,
     },
-    {
+    {  
       name: "React JS",
       icon: reactjs,
     },
@@ -93,10 +91,6 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
       name: "Three JS",
       icon: threejs,
     },
@@ -108,10 +102,7 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+
   ];
   
   const experiences = [
@@ -198,67 +189,66 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      name: "ACUDE",
+      description: "The project focuses on a mobile application for emergency personnel (firefighters, medical staff, police...) to decrease emergency vehicle response times and enhance their tracking capabilities.",
       tags: [
         {
-          name: "react",
+          name: "Java",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Android-studio",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Firebase",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: acude,
+      source_code_link: "https://github.com/IvanArjonaAmadorUPM/acude",
     },
     {
-      name: "Job IT",
+      name: "Holytime",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Holytime is a mobile application that provides tourists with tourist information and creates personalized itineraries based on their tastes and preferences, optimizing their time in the city.",
       tags: [
         {
-          name: "react",
+          name: "Angular",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Ionic",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Typescript",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: holytime,
+      source_code_link: "https://github.com/IvanArjonaAmadorUPM/Hollytime",
     },
     {
-      name: "Trip Guide",
+      name: "ACO Algorithm",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "This project used my own ACO (Ant Colony Optimization) algorithm to create a serve which generate personalized itineraries for tourists based on their input preferences.",
       tags: [
         {
-          name: "nextjs",
+          name: "Java",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "ACO Algorithm",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Spring Boot",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: aco,
+      source_code_link: "https://github.com/IvanArjonaAmadorUPM/holytime-backend",
     },
   ];
   

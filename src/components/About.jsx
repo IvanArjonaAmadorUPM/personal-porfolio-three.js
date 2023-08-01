@@ -46,16 +46,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Lorem ipsum dolor sit amet consectetur adipiscing elit potenti, massa
-        vestibulum accumsan senectus dictum imperdiet aptent, molestie pulvinar
-        pharetra quis neque metus condimentum. Ridiculus nam aenean dignissim
-        tempor hac pellentesque dictumst et dictum cursus mi, lobortis congue ut
-        tempus fusce malesuada platea convallis posuere ornare, lectus nunc
-        torquent sodales venenatis quam nulla montes neque cubilia. Imperdiet
-        habitant semper primis dui aliquam fusce etiam cum sodales iaculis,
-        nascetur auctor torquent himenaeos velit commodo sollicitudin neque
-        interdum, per facilisis varius dis augue condimentum nisl gravida
-        praesent.
+        I'm a software developer with experience in TypeScript and
+        JavaScript, and expertise in frameworks like Angular, Node.js, and
+        Ionic. I'm a quick learner and collaborate closely with clients to
+        create efficient, scalable, and user-friendly solutions that solve
+        real-world problems. I have a strong passion for continuous learning and personal growth.
+        Let's work together to bring your ideas to life!
       </motion.p>
       <div className="flex mt-20 flex-wrap gap-10">
         {services.map((service, index) => (

@@ -29,6 +29,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import acude from "./acude.png";
+import aco from "./aco.png";
+import holytime from "./holytime.png"
 
 export {
   logo,
@@ -59,4 +62,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  acude,
+  aco,
+  holytime,
 };
