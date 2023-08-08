@@ -21,6 +21,10 @@ import {
     holytime,
     aco,
     threejs,
+    angular,
+    capacitor,
+    ionic,
+    java,
   } from "../assets";
   
   export const navLinks = [
@@ -44,7 +48,7 @@ import {
       icon: web,
     },
     {
-      title: "Java developer",
+      title: "Java Developer",
       icon: mobile,
     },
     {
@@ -52,7 +56,7 @@ import {
       icon: backend,
     },
     {
-      title: "Mobile developer",
+      title: "Mobile Developer",
       icon: creator,
     },
   ];
@@ -102,6 +106,23 @@ import {
       name: "figma",
       icon: figma,
     },
+    {
+      name: "capacitor",
+      icon: capacitor,
+    },
+    {
+      name: "angular",
+      icon: angular,
+    },
+    {
+      name: "ionic",
+      icon: ionic,
+    },
+    {
+      name: "java",
+      icon: java,
+    },
+
 
   ];
   
