@@ -25,6 +25,7 @@ import {
     capacitor,
     ionic,
     java,
+    jesus,
   } from "../assets";
   
   export const navLinks = [
@@ -184,11 +185,11 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Trabajar con Iván fue un auténtico aprendizaje para mí. Su pasión por el desarrollo software estaba presente cada día al trabajar en equipo manteniendo una buena comunicación asertiva y efectiva, resolución de problemas y atención al detalle.",
+      name: "Jesús Jerez",
+      designation: "Software developer",
+      company: "Giesecke+Devrient",
+      image: jesus,
     },
     {
       testimonial:

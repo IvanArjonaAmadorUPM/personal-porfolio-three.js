@@ -39,6 +39,8 @@ import acude from "./acude.png";
 import aco from "./aco.png";
 import holytime from "./holytime.png"
 
+import jesus from "./jesus.png"
+
 export {
   logo,
   backend,
@@ -75,4 +77,5 @@ export {
   capacitor,
   ionic,
   java,
+  jesus,
 };
