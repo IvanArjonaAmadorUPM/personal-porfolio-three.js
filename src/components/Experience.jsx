@@ -9,7 +9,7 @@ import { styles } from "../styles";
 import SectionWrapper from "../hoc/SectionWrapper";
 import { textVariant } from "../utils/motion";
 import { experiences } from "../constanst";
-
+//test
 const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
