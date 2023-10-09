@@ -7,21 +7,24 @@ import {
     typescript,
     html,
     css,
-    reactjs,
     redux,
     tailwind,
     nodejs,
     git,
     figma,
+    angular,
+    capacitor,
+    ionic,
+    java,
     acude,
     holytime,
     aco,
-    threejs,
     jesus,
     politecnica,
     lodz,
     brooktec,
     deloitte,
+
   } from "../assets";
   
   export const navLinks = [
@@ -75,10 +78,6 @@ import {
       name: "TypeScript",
       icon: typescript,
     },
-    {  
-      name: "React JS",
-      icon: reactjs,
-    },
     {
       name: "Redux Toolkit",
       icon: redux,
@@ -92,16 +91,28 @@ import {
       icon: nodejs,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
     },
     {
       name: "figma",
       icon: figma,
+    },
+    {
+      name: "angular",
+      icon: angular,
+    },
+    {
+      name: "java",
+      icon: java,
+    },
+    {
+      name: "ionic",
+      icon: ionic,
+    },
+    {
+      name: "capacitor",
+      icon: capacitor,
     },
 
   ];

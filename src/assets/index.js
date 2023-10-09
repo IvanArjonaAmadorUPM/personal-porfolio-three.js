@@ -15,11 +15,14 @@ import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
+
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import angular from "./tech/angular.png";
+import capacitor from "./tech/capacitor.png"
+import ionic from "./tech/ionic.png"
+import java from "./tech/java.png"
 
 import lodz from "./company/lodz.png";
 import deloitte from "./company/deloitte.png";
@@ -52,11 +55,9 @@ export {
   javascript,
   mongodb,
   nodejs,
-  reactjs,
   redux,
   tailwind,
   typescript,
-  threejs,
   carrent,
   jobit,
   tripguide,
@@ -68,4 +69,8 @@ export {
   deloitte,
   brooktec, 
   politecnica, 
+  ionic,
+  java,
+  angular,
+  capacitor,
 };
