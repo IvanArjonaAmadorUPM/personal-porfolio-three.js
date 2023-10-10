@@ -20,6 +20,7 @@ import {
     holytime,
     aco,
     jesus,
+    igor,
     politecnica,
     lodz,
     brooktec,
@@ -193,6 +194,14 @@ import {
       designation: "Software developer",
       company: "Giesecke+Devrient",
       image: jesus,
+    },
+    {
+      testimonial:
+        "Recomiendo encarecidamente a Ivan como un colega excepcional. Una de las cualidades más impresionantes de Ivan es su compromiso con la excelencia. Siempre se esfuerza al máximo para asegurarse de que las tareas se realicen de la mejor manera posible. Su dedicación y persistencia son admirables y han sido una inspiración para mi.",
+      name: "Igor Garcia",
+      designation: "Software Engineer",
+      company: "TRC",
+      image: igor,
     },
   ];
   

@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import linkedin from "./linkedin.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -37,6 +38,7 @@ import aco from "./aco.png";
 import holytime from "./holytime.png"
 
 import jesus from "./jesus.png"
+import igor from "./igor.png"
 
 export {
   logo,
@@ -65,6 +67,7 @@ export {
   aco,
   holytime,
   jesus,
+  igor,
   lodz,
   deloitte,
   brooktec, 
@@ -73,4 +76,5 @@ export {
   java,
   angular,
   capacitor,
+  linkedin,
 };
