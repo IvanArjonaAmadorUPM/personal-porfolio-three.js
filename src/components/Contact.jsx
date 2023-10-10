@@ -6,6 +6,8 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { github } from "../assets";
+import { linkedin } from "../assets";
 
 
 const Contact = () => {
@@ -41,14 +43,14 @@ const Contact = () => {
           to_name: "Iván",
           from_email: form.email,
           to_email: "ivan.arjona.2000@gmail.com",
-          message: form.message,
+          message: "email: " + form.email + " : " + form.message,
         },
         'trhPsuAPAzGdEMkHB'
       )
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          alert("Thank you " + form.name +"! I will get back to you as soon as possible.");
 
           setForm({
             name: "",
@@ -76,10 +78,36 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact</h3>
 
+        <div className="mt-8 flex flex-row justify-start">
+          <div className='mr-2 inset-0 card-img_hover'>
+              <div
+                onClick={() => window.open("https://github.com/IvanArjonaAmadorUPM", "_blank")}
+                className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+                >
+                <img
+                  src={github}
+                  alt='github'
+                  className='w-1/2 h-1/2 object-contain'
+                  />
+              </div>
+          </div>
+          <div className=' inset-0 card-img_hover'>
+              <div
+                onClick={() => window.open("https://www.linkedin.com/in/ivanarjonaamador-softwareengineer/", "_blank")}
+                className='bg-gradient-to-r from-white via-cyan-500 to-cyan-600 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+                >
+                <img
+                  src={linkedin}
+                  alt='linkedin'
+                  className='w-1/2 h-1/2 object-contain'
+                  />
+              </div>
+          </div>
+        </div>
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className='mt-12 flex flex-col gap-8'
+          className='mt-5 flex flex-col gap-8'
         >
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Name</span>
