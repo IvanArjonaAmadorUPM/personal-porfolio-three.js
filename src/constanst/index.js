@@ -127,7 +127,7 @@ import {
       date: "Sep 2018 - Jun 2022",
       points: [
         "My academic journey included coursework in data structures, algorithms, and software design.",
-        "learning various programming languages, including Java, Python, C, and more, enriching my skill set and versatility in software development.",
+        "Learning various programming languages, including Java, Python, C, and more, enriching my skill set and versatility in software development.",
         "Diving into subjects like software architecture and requirements analysis during my studies, designing robust systems.",
         "Optimizing operating systems and fine-tuning parallel systems for improved performance.",
       ],
@@ -166,7 +166,7 @@ import {
       date: "Feb 2022 - July 2022",
       points: [
         "Learning and developing web and mobile applciations and using Angular, Ionic, Capacitor and Node",
-        "Contributing to real-world projects during my internship, sharpening my skills and making meaningful contributions to the team",
+        "Contributing to real-world projects during my internship, sharpening my skills and making meaningful contributions to the team.",
         "Development of new functionalities and the maintenance of ongoing projects.",
         "I had the privilege of learning from seasoned professionals with over a decade of experience.",
       ],
@@ -189,7 +189,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "Trabajar con Iván fue un auténtico aprendizaje para mí. Su pasión por el desarrollo software estaba presente cada día al trabajar en equipo manteniendo una buena comunicación asertiva y efectiva, resolución de problemas y atención al detalle.",
+      "Working with Ivan was a real learning experience for me. His passion for software development was present every day as we worked as a team maintaining good assertive and effective communication, problem solving and attention to detail.",
       name: "Jesús Jerez",
       designation: "Software developer",
       company: "Giesecke+Devrient",
@@ -197,8 +197,7 @@ import {
     },
     {
       testimonial:
-        "Recomiendo encarecidamente a Ivan como un colega excepcional. Una de las cualidades más impresionantes de Ivan es su compromiso con la excelencia. Siempre se esfuerza al máximo para asegurarse de que las tareas se realicen de la mejor manera posible. Su dedicación y persistencia son admirables y han sido una inspiración para mi.",
-      name: "Igor Garcia",
+      "I highly recommend Ivan as an exceptional professional. One of Ivan's most impressive qualities is his commitment to excellence. He always goes out of his way to make sure tasks are completed to the best of his ability. His dedication and persistence are admirable and have been an inspiration to me.",      name: "Igor Garcia",
       designation: "Software Engineer",
       company: "TRC",
       image: igor,
